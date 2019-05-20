@@ -1,0 +1,141 @@
+/* 
+BLOQUE DE ESTILOS BASICOS
+*/
+
+/* GENERICOS *************************************/
+* {
+    box-sizing: border-box;
+}
+
+
+#contenedor {
+    width: 1270px;
+}
+
+p {
+    text-align: justify;
+}
+
+div.margenVertical {
+    height: 2.5rem;
+}
+
+body {
+    /* COLOR DE FONDO */
+    background-color: #f2f2f2;
+    /* COLOR DE LA LETRA */
+    color: #707070;
+    /* TIPOGRADIA, TIPO */
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    /* margen superior */
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.parrafo {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.3rem;
+
+}
+
+/* TITULOS CENTRALES */
+h4 {
+    font-style: arial, bold;
+    font-size: 30px;
+    color: #707070;
+}
+
+/* ***************************************************************************** */
+/* BLOQUE DEL HEADER*/
+
+header {
+    display: flex;
+}
+
+.logotipo {
+    font-family: impact;
+    font-size: 8rem;
+    text-align: center;
+    color: #707070;
+    width: 290px;
+    height: 290px;
+    background-color: #DDDDDD;
+    /* centrar el contenido con flexbox siempre necesita hijos*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.nombre {
+    font-size: 3.125rem;
+    font-family: impact, sans-serif;
+    color: #202428;
+    margin-bottom: 0.8rem;
+}
+
+.subtitulo {
+    font-size: 1.875rem;
+    margin-bottom: 0.8rem;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.infoContacto {
+    margin-bottom: 0.8rem;
+    margin-left: 3rem;
+}
+
+.infoContacto li {
+    margin-bottom: 0.8rem;
+}
+
+
+/* seccion central**************************************************** */
+.sectionCentral {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subtitulocentral {
+    font-style: 18px;
+    font-weight: 900;
+    color: #707070;
+    
+}
+
+.experiencia {
+
+    width: 60%;
+}
+
+.todoexp {
+    margin-left: 70px;
+    margin-top: 50px;
+}
+
+.proyectos{
+    margin: 2rem 0 0 2rem;
+}
+
+/* BLOQUE DERECHA */
+.habilidades {
+    width: 35%;
+}
+
+
+h3{
+    font-style: arial, bold;
+    font-size: 25px;
+    color: #707070;
+    margin-bottom: 0.7rem;
+}
+.tituloHab>li{
+    padding-left: 0.8rem;
+}
